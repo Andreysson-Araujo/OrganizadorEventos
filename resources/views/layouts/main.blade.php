@@ -17,6 +17,20 @@
     <script src="/js/scripts.js"></script>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="collapse navbar-collapse" id="navbar">
+                <a href="" class="navbar-brand">
+                    <img src="/img/5363451.png" alt="HDC Events">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Eventos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     @yield('content')
     <footer>
         <p>HDC Events &copy;2020</p>
