@@ -35,6 +35,12 @@
                     <li class="nav-item">
                         <a href="/events/create" class="nav-link">Criar Eventos</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Entrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Registrar</a>
+                    </li>
                 </ul>
             </div>
         </nav>
