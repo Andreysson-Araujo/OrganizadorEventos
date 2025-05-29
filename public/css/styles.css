@@ -99,6 +99,20 @@ header{
     display: flex;
 }
 
+#event-create-container {
+    padding: 30px;
+}
+
+#event-create-container label{
+    font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea{
+    font-size: 14px;
+}
+
 
 #events-container card {
     flex: 1 1 0;
@@ -133,11 +147,14 @@ header{
 
 footer {
     text-align: center;
-    background-color: #212121;
-    color: #fff;
-    margin-left: -50px;
-    padding: 20px;
+    background-color: #353E48;
+    color: #FFF;
+    padding: 30px;
     position: absolute;
     bottom: 0;
     width: 100%;
+  }
+
+footer p{
+    margin-bottom: 0;
 }
