@@ -12,6 +12,13 @@
             <div id="info-continer" class="col-md-6">
                 <h1>{{$event->title}}</h1>
                 <p class="event-city"><ion-icon class="location-outline"></ion-icon>{{$event->city}}</p>
+                <p class="events-participants"><ion-icon name="people-outline"></ion-icon>X Participantes</p>
+                <p class="event-owner"><ion-icon name="start-outline"></ion-icon> Dono do Evento</p>
+                <a href="#" class="btn btn-primary" id="event-submit">Confirmar Prescença</a>
+            </div>
+            <div class="col-md-12" id="description-container">
+                <h3>Sobre o Evento:</h3>
+                <p class="event-description">{{$event->description}}</p>
             </div>
         </div>
     </div>
