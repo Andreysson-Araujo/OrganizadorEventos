@@ -203,6 +203,15 @@ footer p{
     margin-right: 5px;
 }
 
+#items-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li{
+    display: flex;
+}
+
 #info-container #event-submit{
     margin: 20px 0;
 }
