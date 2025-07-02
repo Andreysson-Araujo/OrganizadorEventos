@@ -145,6 +145,17 @@ header{
     color: #757575;
 }
 
+/*Dashboard */
+
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-title-container th{
+    width: 25%;
+}
+
 footer {
     text-align: center;
     background-color: #353E48;
