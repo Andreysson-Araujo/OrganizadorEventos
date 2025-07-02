@@ -42,6 +42,7 @@
 
                         <li class="nav-item">
                             <form action="/logout" method="POST">
+                                @csrf
                                 <a href="/logout" class="nav-link"
                                     onclick="event.preventDefault();
                                     this.closest('form').submit();">Sair
@@ -54,7 +55,7 @@
                             <a href="/login" class="nav-link">Entrar</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/Registrar" class="nav-link">Registrar</a>
+                            <a href="/register" class="nav-link">Registrar</a>
                         </li>
                     @endguest
                 </ul>
