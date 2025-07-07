@@ -156,6 +156,15 @@ header{
     width: 25%;
 }
 
+/*Edit page */
+
+.img-preview {
+    width: 100px;
+    margin-top: 20px;
+}
+
+
+
 footer {
     text-align: center;
     background-color: #353E48;
@@ -232,3 +241,4 @@ ion-icon{
 #info-container #event-submit{
     margin: 20px 0;
 }
+
