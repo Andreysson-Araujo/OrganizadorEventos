@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EventController;
 use App\Models\Event;
+use Laravel\Jetstream\Rules\Role;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,4 +28,6 @@ Route::get('/contact', function (){
 });
 
 Route::get('/dashboard', [EventController::class, 'dashboard'])->middleware('auth');
+
+Route::post('/events/join/{id}', [EventController::class, 'joinEvent'])->middleware('auth');
 
